@@ -4,7 +4,6 @@ import numpy as np
 import face_recognition
 import os
 from datetime import datetime
-
 from pyparsing import line_end
 
 
@@ -54,11 +53,7 @@ def attendance(name):
             f.writelines(f'{name},{tStr},{dStr},'f'\n') 
             # f.write(f'\n')            
 
-        
-        
-        
-
-
+            
 cap = cv2.VideoCapture(0)
 # print(cap)
 
